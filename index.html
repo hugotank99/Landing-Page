@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <div>
+        <header>
+            <div class="d-flex justify-content-evenly">
+                <li>
+                    <button><a href="#">Home</a></button>
+                </li>
+                <li>
+                    <button><a href="#">Formulario</a></button>
+                </li>
+                <li>
+                    <button><a href="#">Perfil</a></button>
+                </li>
+                <li>
+                    <button><a href="#">fotos</a></button>
+                </li>
+                <li>
+                    <button><a href="#">cobra</a></button>
+                </li>
+            </div><!--class menu-->
+            <div class="container-text">
+                <h1 id="Titulo">Loren...</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                
+            </div><!--class container-text-->
+        </header>
+        <main>
+            <div class="d-flex justify-content-around">
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/hVArmpKsNcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <section class="d-flex justify-content-around">
+            <div class="d-flex justify-content-around">
+            <div class="card" style="width: 14rem;">
+                <img width="160" src="asset/33224527_1027127007443132_3935094022082658304_n.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-around">
+              <div class="card" style="width: 14rem;">
+                <img width="160" src="asset/imag/272852476_2144838312338657_1002546314223127815_n.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div> 
+            </div>
+            <div class="d-flex justify-content-around">
+                <div class="card" style="width: 14rem;">
+                  <img width="160" src="asset/imag/104795637_1654435251378968_896769043899605200_n.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div> 
+            </div> 
+            </section>    
+            <section class="d-flex justify-content-around">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="asset/imag/142410712_1855337514622073_6084617520958071842_n.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="asset/imag/272651979_2141414389347716_4321319448874901215_n.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="asset/imag/177493501_1927598334062657_4226057160128953673_n.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">Primeiro Nome</label>
+                      <input type="text" class="form-control" id="validationCustom01" value="digite seu nome" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Sobrenome</label>
+                      <input type="text" class="form-control" id="validationCustom02" value="digite seu Sobrenome" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustomUsername" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label">Cidade</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom04" class="form-label">Estado</label>
+                      <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Escolha uma opção</option>
+                        <option>...</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Concorde com os termos e condições
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form>
+        </main>
+        <hr><hr>
+        <footer>
+            <div class="d-flex justify-content-evenly">
+                <a  target="_blank" href="https://www.facebook.com/hugo.tancredo/"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/hg_tank99/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/hugotank99"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/hugo-ramos-84a76924a/"><i class="fa-brands fa-linkedin"></i></a>
+            </div><!--class rede-social-->
+        </footer>
+
+    </div>
+</body>
+</html>
